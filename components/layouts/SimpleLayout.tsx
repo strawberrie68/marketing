@@ -7,8 +7,8 @@ interface LayoutProps {
 
 const SimpleLayout = ({ children, className = '' }: LayoutProps) => {
     return (
-        <div className={`min-h-screen bg-gray-500 ${className}`}>
-            <main className="container mx-auto px-4 py-8">
+        <div className={`min-h-screen bg-gradient-to-b from-gray-50 to-[#d2d6db] mx-auto pt-[200px] ${className}`}>
+            <main className="container mx-auto flex justify-center">
                 {children}
             </main>
         </div>
