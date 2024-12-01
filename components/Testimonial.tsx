@@ -1,7 +1,9 @@
-import Avatar from "@/assets/images/profile-thumbnail.png"
 import Image from "next/image"
+import Avatar from "@/assets/images/profile-thumbnail.png"
+
 
 const Testimonial = () => {
+
     return (
         <article
             className="w-[340px] p-6 flex flex-col bg-white gap-4 rounded-lg shadow-sm"
