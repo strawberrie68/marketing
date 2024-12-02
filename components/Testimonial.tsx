@@ -18,7 +18,7 @@ const Testimonial: React.FC<TestimonialProps> = memo(({
             className="w-[340px] p-6 flex flex-col bg-white gap-4 rounded-lg shadow-sm"
             aria-label={`Testimonial by ${name}`}
         >
-            <figure>
+            <figure className="flex flex-col gap-4">
                 <figcaption className="flex gap-4">
                     <Image
                         src={Avatar}
