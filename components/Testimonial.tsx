@@ -42,4 +42,7 @@ const Testimonial: React.FC<TestimonialProps> = memo(({
         </div>)
 })
 
+const MemoizedTestimonial = memo(Testimonial);
+MemoizedTestimonial.displayName = "Testimonial";
+
 export default Testimonial
